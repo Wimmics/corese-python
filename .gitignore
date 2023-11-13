@@ -1,0 +1,8 @@
+# vscode-settings
+.vscode/
+
+# java
+*.class
+
+# maven
+target/
