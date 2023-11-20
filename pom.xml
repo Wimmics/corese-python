@@ -45,6 +45,12 @@
       <version>2.1.2</version>
     </dependency>
 
+    <dependency>
+      <groupId>info.picocli</groupId>
+      <artifactId>picocli</artifactId>
+      <version>4.7.5</version>
+    </dependency>
+
   </dependencies>
 
   <build>
@@ -82,8 +88,7 @@
             <transformer
               implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
               <manifestEntries>
-                <Main-Class>
-                  fr.inria.corese.App</Main-Class>
+                <Main-Class>fr.inria.corese.CoresePy4j</Main-Class>
                 <Multi-Release>true</Multi-Release>
               </manifestEntries>
             </transformer>
